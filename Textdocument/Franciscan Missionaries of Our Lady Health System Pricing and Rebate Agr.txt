@@ -1,0 +1,224 @@
+PRICING / REBATE AGREEMENT REQUEST FORM
+
+1.  Full Legal Name of Customer:
+(Important: verify full legal name with customer)
+Franciscan Missionaries of Our Lady Health System
+SCD - $23,166 TED-$
+AVI-$
+2. REQUIRED-Estimated Annual Rebate Payout (Accruals):
+2a. (Sales Ops use only)   W9 recvd?
+3.   Enter either:   341220    SalesOps- be sure to add the new allied number here if applicable
+•     Bill to number (will include ALL ship to locations unless otherwise specified),
+•      Specific Bill to/Ship to number (will only include sales from this (these) specific locations) - complete Attachment II
+•     Existing Allied group number
+•     Membership list (Sales Ops will create a new allied group) - complete Attachment II
+4.   Address of Customer: 14111 Airline Hwy. Ste #129 Baton Rouge, LA 70817
+5.   Customer is a: multisite business (one bill to; multiple ship to)
+6. Requested by: Sales Representative
+7.   Proposed Start Date (must be a date in the future): April 1st, 2015
+8.   Length of Agreement: 6 months (Note: if rebates are paid annually, the term of the agreement must be whole years)
+9a. Is fixed pricing included in Agreement?
+I Yes
+I No
+ Purchasing Requirement? £3 Yes    O No
+ (answer only if the answer to Question 9.a. is "Yes")
+9c.   To maintain fixed pricing, Customer must:
+(answer only if the answer to Question 9.b. is "Yes")
+I meet or exceed [__]% of prioryear's purchases
+I purchase at least [95]% of its requirements from Covidien I other:
+9d. Pricing has been approved by: O Defined Sales Parameters £3 Pricing Committee
+10.   Designated Primary Group: O Broadlane O Novation O Premier OAmerinet O MedAssets £3 ROi O No GPO
+REBATE 1
+DN/A
+¦     Is a cash rebate equal to 10% of customer's net purchases.
+¦     The rebate is payable annually:
+(check only one box)
+? on customer's net purchases
+? only if net purchases equal or exceed 100% of prioryear's purchases
+? only if net purchases equal or exceed prior year's purchases by__% or more
+? only if customer maintains its B.A.P.V.
+M as described in detail in the Notes section below
+NOTES: Customer must maintain 95% compliance
+Products Covered By Rebate
+(Check only one) ? B.A.P.V. - paid on ? SCD ? T.E.D. ? Foot
+Prior Year's Aggregate Volume: [________]
+^ Paid only on the following categories:
+(check all that apply) El A-V.I.S. El SCD ? T.E.D.
+VTPrice/Rebate Agreement Request Form_05072014
+Page Iof3
+Attachment I
+PRICING
+1.    If Fixed Pricing is applicable, please list pricing for ONLY those items which require Fixed Pricing:
+2.    Do all of the products listed below count toward the calculation of rebates?    £3 Yes    I   I No
+3.   Are we providing fixed pricing for all of the products listed below?
+Yes
+No
+If you answered "No" to either of the questions above, please describe which products count toward calculation of the rebate and which have fixed pricing:
+Describe:SCD Express Sleeves
+REBATE ITEM SELECTION INSTUCTIONS
+Check each 5-Digit Sales Class to select specific FAMLIES of ITEMS contained in the 5-Digit Sales Classification are to be included in rebate calculations
+SCD™ Sequential Compression System Sleeves/Foot Cuffs
+5-Digit Sales Class and Description	Item#	Item Description	UOM (QTY)	UOM (LOWEST)	UOM (PRICING)	Price
+IE] VTSEK-EXPRESS SLEEEVES KNEE	9529	SCD EXPRESS SLEEVE K/L MEDIUM	5	PR	CA	$47.50
+	9789	SCD EXPRESS SLEEVE K/L LARGE	5	PR	CA	$82.50
+	9790	XL SCD EXPRESS KNEE LENGTH	5	PR	CA	$180.00
+IEI VTSET-EXPRESS SLEEVES THIGH	9530	SCD EXPRESS SLEEVE T/L MEDIUM	5	PR	CA	$125.00
+	9545	SCD EXPRESS SLEEVE T/L SMALL	5	PR	CA	
+	9736	SCD EXPRESS SLEEVE T/L STERILE	5	EA	CA	
+	9780	SCD EXPRESS SLEEVE T/L LARGE	3	PR	CA	$140.00
+	9530T	SCD EXPRESS KAMBIA* T/L MED	5	PR	CA	
+	9545T	SCD EXPRESS KAMBIA* T/L SML	5	PR	CA	
+	9780T	SCD EXPRESS KAMBIA* T/L LGE	3	PR	CA	
+A-V Impulse System® ImPads1
+5-Digit Sales Class and Description	Item#	Item Description	UOM (QTY)	UOM (LOWEST)	UOM (PRICING)	Price
+IEI VTABA-EXPRESS FOOT REGULAR	5897	SCD EXPRESS FOOT - REGULAR	10	EA	CA	$150.00
+IEI VTABB-EXPRESS FOOT LARGE	5898	SCD EXPRESS FOOT -LARGE	10	EA	CA	$150.00
+MEMBERS
+Attachment II
+Account Name	Bill-to / Ship-to	Address	City, State, Zip Code
+Our Lady of the Lake Regional Medical Center	341220-547927	5000 Hennessy Blvd.	Baton Rouge, LA 70808
+St Francis Medical Center	341220-547923	309 Jackson St.	Monroe, LA 71201
+Our Lady of LourdesRegional Medical Center	341220-547926	4801 Ambassador Caffery Parkway	Lafayette, Louisiana 70508
+St Elizabeth Hospital	341220-547925	1125 W. Highway 30	Gonzales, LA 70737
+Our Lady of Angels Hospital	341220-6847673	433 Plaza Street	Bogalusa, LA 70427
+PRICING AND REBATE AGREEMENT
+This Pricing and Rebate Agreement (this "Agreement") is dated effective as of the first day of April, 2015 (the "Effective Date") between Covidien Sales LLC; a Delaware limited liability company having a place of business at 15 Hampshire Street, Mansfield, Massachusetts 02048, acting through its Peripheral Vascular business ("Covidien"), and Franciscan Missionaries of Our Lady Health System, having its principal place of business at 14111 Airline Highway, Suite #129, Baton Rouge, LA 70817, as well as any owned and/or managed facilities listed on Schedule I attached hereto, subject to additions and deletions pursuant to Section 5 below (collectively, "Customer").
+1.      Definitions. As used in this Agreement, the following terms shall have the meanings specified below:
+a.   "Authorized Distributors" means distributors that are authorized by Covidien to sell Products to Customer under this Agreement and which agree to comply with the terms and conditions of Covidien's Distributor Policies and Procedures.
+b.   "Compliance" means the percentage determined by dividing (i) the Members' aggregate Net Purchases of the Products from Covidien during the Term by (ii) tile Members' aggregate requirements of such types of products and/or services during such Term.
+c.   "Fixed-Price Products" means the Products for which prices are provided on Exhibit A.
+d.   "Net Purchases" means the total purchase price paid by Customer to Covidien for Products purchased under this Agreement, net of returns, allowances, credits, rebates, taxes, freight, and insurance. To the extent that Customer purchases Products under this Agreement through Authorized Distributors, the Net Purchases of such Products shall be based on the purchase price, net of returns, allowances, credits, rebates, taxes, freight, and insurance, paid by the Authorized Distributor to Covidien and shall not include any service fees or mark-ups charged by the Authorized Distributor to the Customer.
+e.    "Products" means the products listed on Exhibit A attached hereto.
+2-      Term. Unless terminated sooner in accordance wifli the provisions of this Agreement, the term of this Agreement shall commence on the Effective Date and continue for a period of six (6) months (the "Term").
+3.      Pricing. Customer agrees that Compliance shall be at least ninety-five percent (95%) at all times during the Term (the "Purchasing Commitment"). Covidien agrees to make the Fixed-Price Products available to Customer during the Term at the prices set forth on Exhibit A attached hereto so long as Customer remains in compliance with the Purchasing Commitment, Failure to remain in compliance with the Purchasing Commitment shall entitle Covidien to increase prices hereunder for the Fixed-Price Products. Compliance with the Purchasing Commitment shall be measured according to three month periods. To the extent that Customer purchases Fixed-Price Products through Authorized Distributors, the
+prices set forth on Exhibit A shall be the net price at which Covidien will sell Fixed-Price Products to Authorized Distributors for resale to Customer. Customer shall be responsible for negotiating and paying any service fees or mark-ups on such prices charged by the Authorized Distributor. Notwithstanding the foregoing, in the event that Covidien*s aggregate cost of raw materials used to manufacture any Fixed-Price Product increases by more than ten percent (10%) any time during the term of this Agreement, Covidien shall have the right to increase the price of such Fixed-Price Product hereunder by an amount equal to such cost increase. Covidien shall give Customer at least sixty (60) days' prior notice of any such price increase. Products other than Fixed-Price Products shall be offered at Covidien's then-current price for such Products.
+4.      Rebate. If Customer meets the Purchasing Commitment throughout the Term, Covidien shall pay Customer a rebate equal to ten percent (10%) of Net Purchases during the Term. Any rebate earned pursuant to this Section shall be delivered within sixty (60) days after the last business day of the Term. Customer will be eligible to participate in or receive rebates under any other Covidien rebate or incentive program during the Term with respect to the Products. However, such rebates shall not be cumulative with any rebate offered hereunder, and rebates earned through other programs with respect to the purchase of Products may reduce or nullify the rebate offered hereunder.
+5.      Membership Changes. To the extent applicable, Customer shall give written notice to Covidien of any deletion of a facility from its group of Members within thirty days (30) days of such deletion. Deleted Members shall not be covered by, nor participate under, this Agreement from and after the effective date of deletion specified in such written notice. No facility may be added as a Member hereunder without the prior written consent of Covidieti.
+6.      Payment Terms. Purchases made directly from Covidien hereunder (and not through an Authorized Distributor) shall be subject to Covidien's Direct Customer Policies and Procedures. Covidien reserves the right to modify its Direct Customer Policies and Procedures upon sixty (60) days prior written notice. Payment terms for purchases made through Authorized Distributors shall be negotiated by Customer and the Authorized Distributor.
+7.      Delivery Terms. Products purchased directly from Covidien hereunder shall be shipped FOB destination. Delivery terms for Products purchased through an Authorized Distributor shall be negotiated by Customer and the Authorized Distributor. Covidien shall not be liable for any losses suffered by Customer as a result of any failure or delay in the delivery of any Products.
+8.      Termination. Either party may terminate this Agreement as follows:
+(a) if the other party commits a material breach of any of the provisions of this Agreement and does not cure such breach within thirty (30) days after receipt of written notice
+thereof;
+(b)  immediately upon written notice to the other party in the event that proceedings in bankruptcy or insolvency are instituted by or against the other party, or a receiver is appointed, or if any substantial part of the assets of the other party is the object of attachment, sequestration or other type of comparable proceeding, and such proceeding is not vacated or terminated within thirty (30) days after its commencement or institution; or
+(c)  without cause by giving the other party at least sixty (60) days' prior notice of such termination.
+Notwithstanding the foregoing, termination of this agreement shall not terminate any Royalty Free License Agreements between the parties regarding the license of equipment, which may be terminated only pursuant to the terms thereof.
+9.      Excusable Delays. If the performance of any obligation, except payment of moneys due, is prevented, delayed, restricted, or interfered with in any way by reason of any Act of God, fire, flood, explosion, failure of machinery, strikes, lockouts, or labor trouble, supply of fuel, power, materials, containers or transportation, or any other act or condition whatsoever beyond the reasonable control of the affected party, the party so affected, upon giving prompt notice to the party to whom the performance is due, shall be excused from such performance to the extent of such interference. Each party shall use reasonable efforts to remove or resolve such interference with performance as promptly as reasonably possible.
+10.    Discontinuation. In the event any business or product line related to the Products covered by this Agreement is sold or otherwise divested by Covicfien, or any Product is discontinued, all rights and obligations hereunder with respect to the Products of such divested or discontinued product line shall automatically terminate upon the effective date of such discontinuance, sale or divestiture.
+11.    Assignment. Customer shall not assign this Agreement in whole or in part without the prior written consent of Covidien. This Agreement shall be binding upon and inure to the benefit of the parties hereto and their successors and permitted assigns.
+j
+12.    Notices. AH notices required or permitted by this Agreement shall be in writing and shall be directed to the appropriate party at their respective addresses set forth above or such other address as a party may, from time to time, designate by notice to the other party.
+13.    Treatment of Rebates. Any discount, rebate, free goods or other reduction in price received as a result of the purchase of products under this Agreement may involve a discount Of other reduction in price under federal law at 42 U.S.C. §1320a-7B(b)(3)(A) and regulations issued thereunder. Customer is responsible for reporting and/or providing information on all discounts, rebates or reductions in price to reimbursement agencies (including Medicare and Medicaid) and other entities in accordance with all applicable laws and regulations including the provisions of the discount safe harbor exception at 42 C.F.R. §1001.952(h). Customer agrees that it shall promptly disclose and appropriately reflect any discount, rebate or other reduction in price as may be required under Medicare or any other federal or
+state health program. Covidien agrees that it shall provide all reasonable additional information requested by Customer in order to allow Customer to meet its applicable reporting or disclosure requirements and shall refrain from doing anything that would otherwise impede Customer from its reporting and disclosure requirements.
+If the services provided by Customer using the products purchased hereunder require the reporting of costs on a cost report, then Customer must claim the benefit of the discount in the fiscal year in which the discount is earned or the following year and must fully and accurately report the discount in the applicable cost report. If the services are reflected in a cost report or based on charges through the submission of a fee for service claim, Customer agrees to provide information documenting the discount upon request of the Secretary of the U.S. Department of Health and Human Services or by the appropriate state agency.
+14.    No Diversion. During the term of this Agreement, Customer shall (i) purchase all Products directly from Covidien Companies or Authorized Distributors, and (ii) not resell any Products to any third party. Customer shall not be entitled to receive any rebates hereunder if Customer violates the terms of this Section.
+15.    Confidentiality. Customer shall keep confidential and not disclose to any third party the terms of this Agreement.
+16.    Entire Agreement. This Agreement constitutes the entire agreement between the parties hereto regarding the subject matter hereof and supersedes all previous negotiations, agreements and commitments with respect thereto, and shall not be released, discharged, changed or modified in any manner except by instruments signed by duly authorized representatives of each of the parties hereto. Notwithstanding the foregoing, this agreement does not amend the terms of any Royalty Free License Agreements between the parties regarding the license of equipment. No terms and conditions printed on any purchase order or other document submitted by Customer to Covidien in connection with the transactions contemplated by this Agreement shall be of any force or effect, and are hereby expressly rejected by Covidien. All purchases of Products shall be governed exclusively by the terms and conditions set forth herein. If any provision of this Agreement or the application thereof to any party or circumstance shall be declared void, illegal or unenforceable, the remainder of this Agreement shall be valid and enforceable to the extent permitted by applicable law. In such event, the parties shall use commercially reasonable efforts to replace the invalid or unenforceable provision by a provision that, to the extent permitted by applicable law, achieves the purposes intended under the invalid or unenforceable provision.
+17.    Counterparts. This Agreement may be executed in counterparts, each of which shall be deemed to be an original and all of which together shall be deemed to be one and the same instrument.
+4
+IN WITNESS WHEREOF, the parties have caused this Agreement to be duly executed as of the date first written above.
+COVIDIEN SALES LLC
+By:  M
+FRANCISCAN MISSIONARIES OF OUR LADY HEALTH SYSTEM
+WilRam P.
+Title:
+pW^fia'nSlr FMOL Health System QW(«e
+Wrf(«reaymafsrSuI^1 Baton Rouge, LA 70809
+Exhibit A
+PRODUCTS SCD™ Sequential Compression System Sleeves/Foot Cuffs
+	¦	m				it*'-".-," ^
+9529	SCD EXPRESS SLEEVE 14ft, MEDIUM	s		I'R	CA	J47.S0
+9785	SCU EXPHKSS SLEEVE K/L LARGK	5		PR	CA	SS2.S0
+JTOO	XI, SCD EXPRESS KNEK LENGTH	5		I'R	CA	S180.60
+9530	SCD EXl'liXSS SLEEVE T/L MEDIUM	5		PH	CA	$125.00
+5S45	SCD EXPRESS SLEEVE T/L SMALL	S		Pit	CA	
+973fi	SCD EXPKESS SLEEVE TO. STERILE	s		EA	CA	
+9780	SCD EXPRESS SLEEVE T/L LARGE	3		PR	CA	SI4Q.0D
+953DT	SCD EXPRESS KAMBIA* T/L MED	5		PR	CA	
+9S4JT	SCD EXPRESS KAMBIA" T/L SML	5		PR	CA	
+978DT	SCD EXPRESS KAMBIA* T/L LGE	3		PR	CA	
+SS97	SCD EXPRESS FOOT - REGULAR	id		EA	CA	SI50.0B
+	SCD EXPRESS FOOT - LARGE			EA	CA	sisft.m
+6
+MEMBERS
+Schedule I
+Account Name	Bill-to / Ship-to	Address	City, State, Zip Code
+Our Lady of the Lake Regional Medical Center	341220-547927	5000 Hennessy Blvd.	Baton Rouge, LA 70808
+St Francis Medical Center	341220-547923	309 Jackson St	Monroe, LA 7120]
+Our Lady of LourdesRegional Medical Center	341220-547926	4801 Ambassador Caffery Parkway	Lafayette, Louisiana 70508
+St Elizabeth Hospital	341220-547925	1125 W. Highway 30	Gonzales, LA 70737
+Our Lady of Angels Hospital	341220-6847673	433 Plaza Street	Bogalusa, LA 70427
+Amendment to Covidien SCD™ Sequential Compression System license Agreement with Royalty-Free Option
+This Amendment to Covidien SCD™ Sequential Compression System License Agreement with Royalty-Free Option (this "Amendment") is dated as of May 01,2015 between Covidien Sales LLC, a Delaware limited liability company having a place of business at 15 Hampshire Street, Mansfield, Massachusetts 02048, acting through its Peripheral Vascular division ("Covidien"), and Franciscan Missionaries of Our Lady Health System, having a place of business at 4200 Essen Lane, Baton Rouge, LA 70809("Customer" and, together with Covidien, the "Parties")-
+WHEREAS, the Parties intend to execute a License Agreement with Royalty-Free Option for the provision of Covidien SCD™ Controllers concurrent with the execution of this Amendment (the "Agreement"); and
+WHEREAS, the Parties intend to amend the Agreement as set forth herein.
+NOW THEREFORE, for good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, the Parties agree as follows:
+I.   The Agreement is hereby amended by adding the following new numbered sections to the Terms and Conditions of the Agreement after the existing Section XI:
+XII.           INDEPENDENT CONTRACTOR STATUS. In the furnishing of Controllers and the performance of the work, duties, and obligations of Covidien under this Agreement, it is mutually understood and agreed by the parties that Covidien and its agents/employees are at all times acting and performing as independent contractors. Customer shall neither have nor exercise any control or direction over the methods by which Covidien or its agents/employees shall perform work.
+XIII.        GOVERNING LAW. This Agreement shall be construed in accordance with and governed by the laws of the State of Louisiana without giving effect to its conflicts of laws principles. The provisions of this subsection shall survive the termination of this Agreement.
+XIV.        NOTICES. Any notices required or permitted hereunder shall be sufficiently given if sent by registered or certified mail, postage prepaid, or personally delivered to the addresses set forth below.
+XV.         NO WAIVER. No waiver of a breach of any provision of this Agreement shall be construed to be a waiver of any breach of any provision of this Agreement or of any succeeding breacll Of the same provision, No delay in acting with regard to any breach of any provision of this Agreement shall be construed to be a waiver of such breach.
+XVI.        ACCESS TO BOOKS AND RECORDS. Until the expiration of four years after the provision of products and services are furnished under this Agreement, Covidien shall make available, upon written request from the Secretary of the Department of Health and Human Services, the Comptroller General of the United States, or any of their duly authorized representatives, the Agreement, and Covidien's books, documents, and records that are necessary to certify the nature and extent of such cost of services rendered under this Agreement. If Covidien carries out any duties of this Agreement through a subcontract, with a value or cost of $10,000 or more over a 12-month period, with a related organization, such subcontract shall
+contain a clause to the effect that until the expiration of four years after the services are furnished under such subcontract, the related organization shall make available, upon written request to the Secretary, or upon request to the Comptroller General, or any of their duly authorized representatives, the subcontract, and books, documents, and records of such organization that are necessary to verify the nature and extent of such cost. The provisions of this subsection shall survive the termination of this Agreement.
+XVII.     EXCLUDED PROVIDER. Covidien represents and warrants that neither it nor its
+employees providing services hereunder are listed by a federal agency as excluded, debarred, suspended, or otherwise ineligible to participate in federal healthcare programs, including Medicare and Medicaid, and is not listed on the HHS-OIG Cumulative Sanctions Report or the General Services Administration List of Parties Excluded from Federal Procurement and Non-Procurement Programs. Covidien represents and warrants that neither it nor its employees providing services hereunder is listed on the Specially Designated National and Blocked Persons list by the Office of Foreign Assets Control. The parties agree that either may terminate this Agreement, upon notice to the other, in the event that the parties or any person providing services under the terms of this Agreement, as appropriate, is listed on the HHS-OIG Cumulative Sanctions Report or on the General Services Administration List of Parties Excluded from Federal Procurement and Non-Procurement Programs, or on the Specially Designated Nationals and Blocked Persons list by the Office of Foreign Assets Control.
+XVIII.        DISCLOSURE OF INFORMATION. The methods, operations and other information regarding the business of the parties and the terms and contents of this Agreement are confidential and proprietary. The parties agree that neither party will reveal any part of this material to any other person or entity unless (i) prior approval in writing is granted, (ii) as is necessary for use by accountants, counsel, financial advisors and representatives of the Parties, (iii) compelled by process of law, (iv) required under governmental regulation, or (v) becomes a matter of public information because disclosure occurs through no fault of the party receiving the information. The provisions of this subsection shall survive the termination of tins Agreement.
+XIX.         HIPAA COMPLIANCE. To the extent applicable, Covidien agrees to maintain, the confidentiality, privacy, and security of patient information to the extent required by law and Customer policy, Covidien agrees to comply with the Health Insurance Portability and Accountability Act of 1996 and the regulations promulgated thereunder ("HIPAA") with respect to the privacy and security of "protected health information" (as defined by HIPAA) created, transmitted, maintained or received by Covidien pursuant to, or in connection with, the performance of Covidien's obligations under this Agreement. The provisions of this subsection shall survive the termination of this Agreement.
+XX.        SEVERABILITY AND REFORMATION. If any term of this Agreement is held unenforceable or invalid for any reason and not susceptible to reformation due to a change ill applicable law or regulation, the remaining portions shall continue in full force and effect, unless the effect of such severance would be to substantially alter the Agreement or obligations of the Parties, in which case the Agreement may be immediately terminated.
+XXI.       COUNTERPARTS. This Agreement may be executed in any number of counterparts, each of which shall be deemed an original, but all such counterparts together shall constitute one and the same instrument.
+Page 12
+XXU.      THIRD PARTY BENEFICIARY. The obi igations of each party to th is Agreement shall inure solely to the benefit of the other party, and no other person or entity shall be a third party beneficiary to this Agreement.
+2.    In the event of a conflict between the Agreement and this Amendment, this Amendment shall govern.
+3.    Except as modified herein, all other terms of the Agreement shall remain in full force and effect.
+IN WITNESS WHEREOF, the parties hereto have executed this Amendment, as of the date first written above, by proper persons thereunto duly authorized.
+FRANCISCAN MISSIONARIES OF OUR COVIDIEN SALES LLC                                      LADY HEALTH SYSTEM
+By:   \_\ U^s^jV^y^L-_________     By:___
+n        ^a              -^                               xt                       William P. Mosser
+Name:   \ to u-n fYL eki ^^.j______________         Name:      vice President Supply Chain Servtaa
+T.#,   ,.> 5Zr^   ^  /    <^      v i-^-            ™                     FMOL Health System
+Title: vwsvis> - "D^lc.s ^g^Mt.       Title:-------12100LlttloCayman,Suite 100
+y, Baton Rouge, LA 70809
+APK 1 o /DID
+Page|3
+COMPANY GLN: Our lady of the LaKe
+SHIP TERMS: SHIP VIA:
+Purchase Order: 3199568-0-IA
+ORIGINAL
+Page:       1 Date: 04/15/15
+FREIGHT: FOB-Destinat±on
+VENDOR: 6I3836-LA2
+COVIDIEB KEHDAIX HEALTHCARE PR 15 HAMPSHIRE STREET MAttSFIELD MA. 2048
+SHIP TO:
+OUR LADY OF THE LAKE LOADING DOCK 5000 HENNESSY BLVD BATON ROUGE LA 70808
+CONTACT:
+PHOHE:
+FAX:
+TERMS
+(800)962-9888 2257659599
+CONTACT: KATHERIHE DANIELS 225-526-4581 PHOHE:   (225) 526-4581
+FAX:
+BUYER GUI:
+EMAIL ADDRESS: Katherine.Daniels@fmollis.org DISCOUNT DAYS  RATE  NET  ACCOUHT NUMBER
+Net 30 Days
+30  547927
+Purchase Order Currency: US DOLLARS
+Invoice by mail Process Level: FMOX
+Bill To Address:
+FMOL HEALTH SYSTEM
+PO BOX 83880
+BATON ROUGE LA 70884
+Phone:   (     ) (225) 526-4500
+Snail:   apinvoiceSfmolhs.org
+LINE
+ITEM HUMBER DESCRIPTION
+QUANTITY PRICE
+EXTENDED AMOUNT
+1 COVIDIEN COMPRESSION PUMPS COVIDIEN COMPRESSION PUMPS Deliver on April 17, 2015 Ho charge item Item Detail: COVIDIEN COMPRESSION PUMPS
+765.0000 EA 0.00000
+0.00
+Purchase Order Summary
+Goods Total: Order Total:
+0.00 0.00
+COMPANY GLN:                                        Purchase Order: 3199568-0-IA                              ORIGINAL
+Our lady o£ the Lake                                                                                                 Page:       2
+Date: 04/15/15
+End of Purchase Order: 3199568-0-LA

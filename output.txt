@@ -1,0 +1,441 @@
+Python 3.4.3rc1 (v3.4.3rc1:69dd528ca625+, Feb  8 2015, 11:01:19) [MSC v.1600 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+This Rebate Agreement (this "Agreement") is dated effective as of the first day of! ebmaiy 2012 between Tyco Healthcare Group LP (d/b/a Covidien), a Delaware limited partnership having a place of business at 15 Hampshire Street, Mansfield, Massachusetts 02048, acting through the Venous Vascular division of its Vascular Therapies business ("Covidien"), a&d West Perm Allegheny Health System, having its principle place of business at Four Allegheny Center Pittsburgh PA 15212, as well as any owned and/oi managed facilities listed on Schedule I attached hereto, subject to additions and deletions pursuant to Section 5 below (collectively, "Customer").
+
+['This', 'Rebate', 'Agreement', '(this', '"Agreement")', 'is', 'dated', 'effective', 'as', 'of', 'the', 'first', 'day', 'of!', 'ebmaiy', '2012', 'between', 'Tyco', 'Healthcare', 'Group', 'LP', '(d/b/a', 'Covidien),', 'a', 'Delaware', 'limited', 'partnership', 'having', 'a', 'place', 'of', 'business', 'at', '15', 'Hampshire', 'Street,', 'Mansfield,', 'Massachusetts', '02048,', 'acting', 'through', 'the', 'Venous', 'Vascular', 'division', 'of', 'its', 'Vascular', 'Therapies', 'business', '("Covidien"),', 'a&d', 'West', 'Perm', 'Allegheny', 'Health', 'System,', 'having', 'its', 'principle', 'place', 'of', 'business', 'at', 'Four', 'Allegheny', 'Center', 'Pittsburgh', 'PA', '15212,', 'as', 'well', 'as', 'any', 'owned', 'and/oi', 'managed', 'facilities', 'listed', 'on', 'Schedule', 'I', 'attached', 'hereto,', 'subject', 'to', 'additions', 'and', 'deletions', 'pursuant', 'to', 'Section', '5', 'below', '(collectively,', '"Customer").']
+0 This
+1 Rebate
+2 Agreement
+3 (this
+4 "Agreement")
+5 is
+6 dated
+7 effective
+8 as
+9 of
+10 the
+11 first
+12 day
+13 of!
+14 ebmaiy
+15 2012
+16 between
+17 Tyco
+18 Healthcare
+19 Group
+20 LP
+21 (d/b/a
+22 Covidien),
+23 a
+24 Delaware
+25 limited
+26 partnership
+27 having
+28 a
+29 place
+30 of
+31 business
+32 at
+33 15
+34 Hampshire
+35 Street,
+36 Mansfield,
+37 Massachusetts
+38 02048,
+39 acting
+40 through
+41 the
+42 Venous
+43 Vascular
+44 division
+45 of
+46 its
+47 Vascular
+48 Therapies
+49 business
+50 ("Covidien"),
+51 a&d
+52 West
+53 Perm
+54 Allegheny
+55 Health
+56 System,
+57 having
+58 its
+59 principle
+60 place
+61 of
+62 business
+63 at
+64 Four
+65 Allegheny
+66 Center
+67 Pittsburgh
+68 PA
+69 15212,
+70 as
+71 well
+72 as
+73 any
+74 owned
+75 and/oi
+76 managed
+77 facilities
+78 listed
+79 on
+80 Schedule
+81 I
+82 attached
+83 hereto,
+84 subject
+85 to
+86 additions
+87 and
+88 deletions
+89 pursuant
+90 to
+91 Section
+92 5
+93 below
+94 (collectively,
+95 "Customer").
+
+
+
+ CAPTURED CLIENT_DETAILS FROM PDF 
+
+
+ West Perm Allegheny Health System, having its principle place of business at Four Allegheny Center Pittsburgh PA 15212, as well as any owned and/oi managed facilities listed on Schedule I attached
+
+
+
+ 
+
+
+
+
+
+ CAPTURED CLIENT_NAME_ONLY FROM PDF 
+
+
+ West Perm Allegheny Health System,
+
+
+
+ 
+
+
+ first day of! ebmaiy 2012 between Tyco Healthcare Group LP (d/b/a Covidien),
+firstdayof!ebmaiy2012
+
+
+d "Contt act Year" means the 12-month per iod commencing upon the first day of the term of this Agreement and each consecutive succeeding 12-month period during the term of this Agreement.
+
+['d', '"Contt', 'act', 'Year"', 'means', 'the', '12-month', 'per', 'iod', 'commencing', 'upon', 'the', 'first', 'day', 'of', 'the', 'term', 'of', 'this', 'Agreement', 'and', 'each', 'consecutive', 'succeeding', '12-month', 'period', 'during', 'the', 'term', 'of', 'this', 'Agreement.']
+0 d
+1 "Contt
+2 act
+3 Year"
+4 means
+5 the
+6 12-month
+7 per
+8 iod
+9 commencing
+10 upon
+11 the
+12 first
+13 day
+14 of
+15 the
+16 term
+17 of
+18 this
+19 Agreement
+20 and
+21 each
+22 consecutive
+23 succeeding
+24 12-month
+25 period
+26 during
+27 the
+28 term
+29 of
+30 this
+31 Agreement.
+25
+ the 12-month per iod commencing upon the first day of the term of this Agreement and each consecutive succeeding 12-month period
+4,      Rebate,. Customer agrees that Compliance for each of the Categories shall be at least ninety-five percent (95%) at ail times during the teim of this Agreement (the "Purchasing Commitment"). Each Contract Yeai hereunder that Customer meets the Purchasing Commitment in a particular Category (each, a "Compliant Category") throughout such Contract Year, Covidien shall pay Customer a rebate equal to five percent (5%) of Net Purchases of Products for such Contract Year. Any rebate earned pursuant to thi$ Section shall be delivered annually within ninety (!30) days after the last business day of the Contract Year to which it applies. Customer will be eligible to participate in or receive a rebate under any other Covidien rebate oi incentive program during the tetm of this Agreement with respect to the Products, However, such rebates shall not be cumulative with any rebate offered hereunder, and rebates earned through other programs with respect to the purchase of Products may reduce or nullify the rebate offered hereunder.
+
+['4,', 'Rebate,.', 'Customer', 'agrees', 'that', 'Compliance', 'for', 'each', 'of', 'the', 'Categories', 'shall', 'be', 'at', 'least', 'ninety-five', 'percent', '(95%)', 'at', 'ail', 'times', 'during', 'the', 'teim', 'of', 'this', 'Agreement', '(the', '"Purchasing', 'Commitment").', 'Each', 'Contract', 'Yeai', 'hereunder', 'that', 'Customer', 'meets', 'the', 'Purchasing', 'Commitment', 'in', 'a', 'particular', 'Category', '(each,', 'a', '"Compliant', 'Category")', 'throughout', 'such', 'Contract', 'Year,', 'Covidien', 'shall', 'pay', 'Customer', 'a', 'rebate', 'equal', 'to', 'five', 'percent', '(5%)', 'of', 'Net', 'Purchases', 'of', 'Products', 'for', 'such', 'Contract', 'Year.', 'Any', 'rebate', 'earned', 'pursuant', 'to', 'thi$', 'Section', 'shall', 'be', 'delivered', 'annually', 'within', 'ninety', '(!30)', 'days', 'after', 'the', 'last', 'business', 'day', 'of', 'the', 'Contract', 'Year', 'to', 'which', 'it', 'applies.', 'Customer', 'will', 'be', 'eligible', 'to', 'participate', 'in', 'or', 'receive', 'a', 'rebate', 'under', 'any', 'other', 'Covidien', 'rebate', 'oi', 'incentive', 'program', 'during', 'the', 'tetm', 'of', 'this', 'Agreement', 'with', 'respect', 'to', 'the', 'Products,', 'However,', 'such', 'rebates', 'shall', 'not', 'be', 'cumulative', 'with', 'any', 'rebate', 'offered', 'hereunder,', 'and', 'rebates', 'earned', 'through', 'other', 'programs', 'with', 'respect', 'to', 'the', 'purchase', 'of', 'Products', 'may', 'reduce', 'or', 'nullify', 'the', 'rebate', 'offered', 'hereunder.']
+0 4,
+1 Rebate,.
+2 Customer
+3 agrees
+4 that
+5 Compliance
+6 for
+7 each
+8 of
+9 the
+10 Categories
+11 shall
+12 be
+13 at
+14 least
+15 ninety-five
+16 percent
+17 (95%)
+18 at
+19 ail
+20 times
+21 during
+22 the
+23 teim
+24 of
+25 this
+26 Agreement
+27 (the
+28 "Purchasing
+29 Commitment").
+30 Each
+31 Contract
+32 Yeai
+33 hereunder
+34 that
+35 Customer
+36 meets
+37 the
+38 Purchasing
+39 Commitment
+40 in
+41 a
+42 particular
+43 Category
+44 (each,
+45 a
+46 "Compliant
+47 Category")
+48 throughout
+49 such
+50 Contract
+51 Year,
+52 Covidien
+53 shall
+54 pay
+55 Customer
+56 a
+57 rebate
+58 equal
+59 to
+60 five
+61 percent
+62 (5%)
+63 of
+64 Net
+65 Purchases
+66 of
+67 Products
+68 for
+69 such
+70 Contract
+71 Year.
+72 Any
+73 rebate
+74 earned
+75 pursuant
+76 to
+77 thi$
+78 Section
+79 shall
+80 be
+81 delivered
+82 annually
+83 within
+84 ninety
+85 (!30)
+86 days
+87 after
+88 the
+89 last
+90 business
+91 day
+92 of
+93 the
+94 Contract
+95 Year
+96 to
+97 which
+98 it
+99 applies.
+100 Customer
+101 will
+102 be
+103 eligible
+104 to
+105 participate
+106 in
+107 or
+108 receive
+109 a
+110 rebate
+111 under
+112 any
+113 other
+114 Covidien
+115 rebate
+116 oi
+117 incentive
+118 program
+119 during
+120 the
+121 tetm
+122 of
+123 this
+124 Agreement
+125 with
+126 respect
+127 to
+128 the
+129 Products,
+130 However,
+131 such
+132 rebates
+133 shall
+134 not
+135 be
+136 cumulative
+137 with
+138 any
+139 rebate
+140 offered
+141 hereunder,
+142 and
+143 rebates
+144 earned
+145 through
+146 other
+147 programs
+148 with
+149 respect
+150 to
+151 the
+152 purchase
+153 of
+154 Products
+155 may
+156 reduce
+157 or
+158 nullify
+159 the
+160 rebate
+161 offered
+162 hereunder.
+60
+ five percent (5%) of Net Purchases of Products
+6.      Payment Terms. Purchases made directly from Covidien hereunder (and not through an Authorized Distributor) shall be subject to Covidien's Direct Customer Policies and Procedures, which include, but are not limited to (a) payment terms of net thhty (30) days from the date of each invoice and (b) a $90 charge on any direct ordei in an amount of less than $500. Covidien reserves the right to modify its Direct Customer Policies and Procedures upon sixty (60) days prior written notice.. Payment terms for purchases made through Authorized Distributors shall be negotiated by Customer and the Authorized Distributor.,
+
+['6.', 'Payment', 'Terms.', 'Purchases', 'made', 'directly', 'from', 'Covidien', 'hereunder', '(and', 'not', 'through', 'an', 'Authorized', 'Distributor)', 'shall', 'be', 'subject', 'to', "Covidien's", 'Direct', 'Customer', 'Policies', 'and', 'Procedures,', 'which', 'include,', 'but', 'are', 'not', 'limited', 'to', '(a)', 'payment', 'terms', 'of', 'net', 'thhty', '(30)', 'days', 'from', 'the', 'date', 'of', 'each', 'invoice', 'and', '(b)', 'a', '$90', 'charge', 'on', 'any', 'direct', 'ordei', 'in', 'an', 'amount', 'of', 'less', 'than', '$500.', 'Covidien', 'reserves', 'the', 'right', 'to', 'modify', 'its', 'Direct', 'Customer', 'Policies', 'and', 'Procedures', 'upon', 'sixty', '(60)', 'days', 'prior', 'written', 'notice..', 'Payment', 'terms', 'for', 'purchases', 'made', 'through', 'Authorized', 'Distributors', 'shall', 'be', 'negotiated', 'by', 'Customer', 'and', 'the', 'Authorized', 'Distributor.,']
+0 6.
+1 Payment
+2 Terms.
+3 Purchases
+4 made
+5 directly
+6 from
+7 Covidien
+8 hereunder
+9 (and
+10 not
+11 through
+12 an
+13 Authorized
+14 Distributor)
+15 shall
+16 be
+17 subject
+18 to
+19 Covidien's
+20 Direct
+21 Customer
+22 Policies
+23 and
+24 Procedures,
+25 which
+26 include,
+27 but
+28 are
+29 not
+30 limited
+31 to
+32 (a)
+33 payment
+34 terms
+35 of
+36 net
+37 thhty
+38 (30)
+39 days
+40 from
+41 the
+42 date
+43 of
+44 each
+45 invoice
+46 and
+47 (b)
+48 a
+49 $90
+50 charge
+51 on
+52 any
+53 direct
+54 ordei
+55 in
+56 an
+57 amount
+58 of
+59 less
+60 than
+61 $500.
+62 Covidien
+63 reserves
+64 the
+65 right
+66 to
+67 modify
+68 its
+69 Direct
+70 Customer
+71 Policies
+72 and
+73 Procedures
+74 upon
+75 sixty
+76 (60)
+77 days
+78 prior
+79 written
+80 notice..
+81 Payment
+82 terms
+83 for
+84 purchases
+85 made
+86 through
+87 Authorized
+88 Distributors
+89 shall
+90 be
+91 negotiated
+92 by
+93 Customer
+94 and
+95 the
+96 Authorized
+97 Distributor.,
+ Purchases made directly from Covidien hereunder (and not through an Authorized Distributor) shall be subject to Covidien's Direct Customer Policies and Procedures, which include, but are not limited to (a) payment terms of net thhty (30) days from the date of each invoice and (b) a $90 charge on any direct ordei in an amount of less than $500. Covidien reserves the right to modify its Direct Customer Policies and Procedures upon sixty (60) days prior written notice.. Payment terms for purchases made through Authorized Distributors shall be negotiated by Customer and the Authorized Distributor.
+>>> 

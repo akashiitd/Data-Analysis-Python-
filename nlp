@@ -1,0 +1,525 @@
+Customer Name
+
+name_list=open(namelist,'r')
+file_name = name_list.readline().strip('\n')
+
+for i in name_list.readlines():
+
+    myfile=’Ur file Path’
+    fhand=open(myfile,'r')
+    Z = i.strip('\n')
+    content = fhand.readlines()
+    out_put="a"
+
+    if len(out_put)==1:
+        for i in range(len(content)-1):
+            if "(Important: verify full legal name with customer" in content[i]:
+                start = i+1
+                out_put = content[start]
+                
+                if len(out_put)>0:
+                    print ("File Name: " + Z + "> Result1: "+ out_put)
+                    print('\n')
+                    break
+                
+    if len(out_put)==1:
+        for i in range(len(content)-1):
+            if "Customer Name\tCustomer Account Number" in content[i]:
+                start = i-1
+                out_put = content[start]
+                               
+                if len(out_put)>0:
+                    print ("File Name: " + Z +">  Result2: "+ out_put)
+                    print('\n')
+                    break
+
+    if len(out_put)==1:
+        for i in range(len(content)-1):
+            if "Customer and/or Group Name:" in content[i]:
+                myline = content[i]
+                start = myline.find("a Customer and/or Group Name:")
+                end = myline.find("Agreement #:")
+                out_put = myline[start+28:end]
+                
+                if len(out_put)>0:
+                    print ("File Name: " + Z +">  Result3: "+ out_put)
+                    print('\n')
+                    break
+
+
+    if len(out_put)==1:            
+        for i in range(len(content)-1):
+            if "Rebate Program/Name:   Monitoring & OR Rebate Program Agreement #:" in content[i]:
+                start = i+1
+                out_put = content[start]
+                
+                if len(out_put)>0:
+                    print ("File Name: " + Z +">  Result4a: "+ out_put)
+                    print('\n')
+                    break
+
+    if len(out_put)==1:            
+        for i in range(len(content)-1):
+            if "IN WITNESS WHERFOF. the parties have duly executed this Agreement as of the Effective Date" in content[i]:
+                start = i+1
+                out_put = content[start]
+                
+                if len(out_put)>0:
+                    print ("File Name: " + Z +">  Result4b: "+ out_put)
+                    print('\n')
+                    break
+
+    if len(out_put)==1:            
+        for i in range(len(content)-1):
+            if "Sales Contact Name: Phone:" in content[i]:
+                start = i+1
+                out_put = content[start]
+                
+                if len(out_put)>0:
+                    print ("File Name: " + Z +">  Result4: "+ out_put)
+                    
+                    print('\n')
+                    break
+
+    if len(out_put)==1:            
+        for i in range(len(content)-1):
+            if "(Base and Growth Rebate Program)-" in content[i]:
+                myline = content[i]
+                start = myline.find("(Base and Growth Rebate Program)-")
+                out_put = myline[start+33:]
+                
+                if len(out_put)>0:
+                    print ("File Name: " + Z +">  Result5: "+ out_put)
+                    print('\n')
+                    break
+
+    if len(out_put)==1:            
+        for i in range(len(content)-1):
+            if "Base and Growth Rebate Program Monitoring and OR Products Division" in content[i]:
+                start = i+1
+                out_put = content[start]
+                
+                if len(out_put)>0:
+                    print ("File Name: " + Z +">  Result6: "+ out_put)
+                    print('\n')
+                    break
+
+    if len(out_put)==1:            
+        for i in range(len(content)-1):
+            if "This letter shall serve to memorialize the understanding between" in content[i]:
+                myline = content[i]
+                start = myline.find("This letter shall serve to memorialize the understanding between ")
+                end = myline.find('("Customer") and')
+                out_put = myline[start+65:end]
+                
+                if len(out_put)>0:
+                    print ("File Name: " + Z + ">  Result7: "+ out_put)
+                    print('\n')
+                    break
+
+    if len(out_put)==1:            
+        for i in range(len(content)-1):
+            if "The Members are as follows:" in content[i]:
+                start = i+1
+                out_put = content[start]
+                
+                if len(out_put)>0:
+                    print ("File Name: " + Z +">  Result9: "+ out_put)
+                    print('\n')
+                    break
+
+    if len(out_put)==1:    
+        for i in range(len(content)-1):
+            start=-1
+            end=-1
+             #print(content[i])   
+            if "), and" in content[i]:
+                myline = str(content[i])
+                m=myline.split()
+                for i in range(len(m)-1):
+                    if '"),' in m[i] and 'and' in m[i+1]:
+                        start=i+2
+                #print(start)        
+                for j in range(start,len(m)-1):   
+                     if 'having' in m[j]:
+                         #print(m[j])   
+                         end=j
+                         #print(end)
+                         break
+                  
+                out_put = m[start:end]
+                op=str()
+                op=""
+                for i in range(len(out_put)):    
+                    op=op+" "+out_put[i]
+                    op=op.replace(",","")
+                    op=op.strip()
+
+                print("File Name: " + Z +" >  Results8:" +op+"\n")
+                print('\n')
+
+                break
+
+
+        
+    if len(out_put)==1:    
+        for i in range(len(content)-1):
+            start=-1
+            end=-1
+             #print(content[i])   
+            if "). and" in content[i]:
+                myline = str(content[i])
+                m=myline.split()
+                for i in range(len(m)-1):
+                    if ').' in m[i] and 'and' in m[i+1]:
+                        start=i+2
+                #print(start)        
+                for j in range(start,len(m)-1):   
+                     if 'having' in m[j]:
+                         #print(m[j])   
+                         end=j
+                         #print(end)
+                         break
+                  
+                out_put = m[start:end]
+                op=str()
+                op=""
+                for i in range(len(out_put)):    
+                    op=op+" "+out_put[i]
+                    op=op.replace(",","")
+                    op=op.strip()
+
+                print("File Name: " + Z +" >  Results11:" +op+"\n")
+                print('\n')
+
+                break
+            
+    if len(out_put)==1:    
+            for i in range(len(content)-1):
+                start=-1
+                end=-1
+                 #print(content[i])   
+                if "), " in content[i]:
+                    myline = str(content[i])
+                    m=myline.split()
+                    for i in range(len(m)-1):
+                        if '"),' in m[i]:
+                            start=i+1
+                    #print(start)        
+                    for j in range(start,len(m)-1):   
+                         if 'having' in m[j]:
+                             #print(m[j])   
+                             end=j
+                             #print(end)
+                             break
+                      
+                    out_put = m[start:end]
+                    op=str()
+                    op=""
+                    for i in range(len(out_put)):    
+                        op=op+" "+out_put[i]
+                        op=op.replace(",","")
+                        op=op.strip()
+
+                    print("File Name: " + Z +" >  Results12:" +op+"\n")
+                                        
+END Date
+
+name_list=open(namelist,'r')
+file_name=name_list.readline().strip('\n')
+#print(file_name)
+for i in name_list.readlines():
+    #print(i)
+    i=i.strip('\n')
+    myfile=path+i 
+    print(myfile)
+    fhand=open(myfile,'r')
+
+    for line in fhand:
+        if 'End Date' in line:
+            print(line)
+            matches = datefinder.find_dates(line)
+            for index, i in enumerate(matches):
+                if index==1:
+                    SD = i
+                    print('End Date:',SD,'\n')
+                    break
+            
+        
+        elif 'Length of Agreement' in line:
+            print(line)
+            break
+
+        else:
+            if 'Duration of Agreement' in line:
+                print(line)
+                break
+
+Product
+
+fhand=open(myfile,'r')
+    f=fhand.readlines()
+    ls=[]
+    count=0
+    b=-1
+    pos=-1
+    d=-1
+    for i in range(len(f)):
+        if "Attachment B" in f[i] and len(str(f[i]))==13:
+            b=i
+            #print(b)
+            break
+    if b==-1:          
+        for i in range(len(f)-1):
+            if "Attachment A" in f[i] and len(str(f[i]))==13:
+                if "CATEGORIES" in f[i+1]:
+                    if "Sales" in f[i+2]:
+                        pos=i+3
+                        break
+        if pos!=-1:
+            for i in range(pos,len(f)):
+                m=str(f[i])
+                m=m.strip("\n")
+                n=m.strip(" ")
+                n=n.strip("\t")
+                ls.append(n[0:2])
+            print(ls)
+        else:
+             for i in range(len(f)-1):
+                if "CATEGORIES" in f[i] and len(str(f[i]))==11:
+                    if "Attachment A" in f[i+1]:
+                        if "Sales Class" in f[i+2]:
+                            pos=i+3
+                            break
+             if pos!=-1:
+                for i in range(pos,len(f)):
+                    m=str(f[i])
+                    m=m.strip("\n")
+                    n=m.strip(" ")
+                    n=n.strip("\t")
+                    ls.append(n[0:2])
+                print(ls)
+    else:
+        for i in range(0,b):
+            if "Attachment A" in f[i] and len(str(f[i]))==13:
+                if "CATEGORIES" in f[i+1]:
+                    if "Sales" in f[i+2]:
+                        a=i+3
+                        break
+        for i in range(a,b):
+            m=str(f[i])
+            ls.append(m[0:2])
+            #print(ls)
+        print(ls)
+    
+
+
+mypath="Path to Files"
+f=[]
+ls=[]
+bs=[]
+fs=[]
+##for (dirpath, dirnames, filenames) in walk(mypath):
+##    f.extend(filenames)
+##    break
+###print (f)
+fil="get files"
+h=open(fil,"r")
+for line in h:
+    f.append(line.strip())
+
+for i in range(len(f)):
+    #print(mypath+"/"+f[i])
+    myfile=mypath+"/"+f[i]
+    print(myfile)
+    fhand=open(myfile,'r')
+    a=0
+    b=0
+    c=0
+    count=0
+    ls=[]
+    bs=[]
+    for line in fhand:
+        count+=1
+        if "PART B - CATEGORIES"  in line:
+            a=count
+            #print(line)
+        elif "PART B-CATEGORIES"  in line:
+            a=count
+            #print(line)
+        elif "PART B- CATEGORIES"  in line:
+            a=count
+            #print(line)
+        elif "PART B — CATEGORIES"  in line:
+            a=count
+            #print(line)
+        elif "PART C - SIGNATURES" in line:
+            b=count
+            #print(line)
+            #print(b)
+            #break
+        elif "PART C:- SIGNATURES" in line:
+            b=count
+            #print(line)
+        elif "PART C - SIGNATURES" in line:
+            b=count
+            #print(line)    
+        elif "PART C-SIGNATURES" in line:
+            b=count
+            #print(line)
+    if a==0 and b==0:
+        fhand=open(myfile,'r')
+        for line in fhand:
+            if "Product Categories:" in line:
+                m=str(line)
+                m=m.strip("\n")
+                n=m.replace("Product Categories:","")
+                n=n.strip(" ")
+                n=n.strip("\t")
+                pos=n.find(" Base")
+                if pos!=-1:
+                    p=n[0:pos]
+                    bs.append(p)
+                else:
+                    if n!="":
+                        bs.append(n)
+                break
+            elif "Product Categories" in line:
+                m=str(line)
+                m=m.strip("\n")
+                n=m.replace("Product Categories","")
+                n=n.strip(" ")
+                n=n.strip("\t")
+                bs.append(n)
+    else:
+        fhand=open(myfile,'r')
+        for line in fhand:
+            c+=1
+            if a>0 and b>a:
+                #print(a,b)
+                if c>=a and c<=b:
+                    if "(" in line:
+                        ls.append(line)
+                        for i in range(len(ls)):
+                            m=str(ls[i])
+                            m=m.strip("\n")
+                            n=m.split(" ")
+                            #print(n)
+                            for j in range(len(n)):
+                                if "(" in n[j] and "(excluding" not in n[j]:
+                                    bs.append(n[j])
+
+Rebate
+
+fh=open(m,'r')
+    fl=fh.readlines()
+    base_pos=-1
+    end_pos=-1
+    for i in range(len(fl)):
+            
+        myfile=get file
+        #print(myfile)
+        fhand=open(myfile,'r')
+        f=fhand.readlines()
+        
+        for i in range(len(f)):
+            if "Category Rebate." in f[i]:
+                base_pos=i
+                break    
+            elif "Volume Rebate." in f[i]:
+                base_pos=i
+                break
+            elif "Growth Rebate." in f[i]:
+                base_pos=i
+                break
+            elif "Quarterly Rebate." in f[i]:
+                base_pos=i
+                break
+            elif "Base Rebate." in f[i] or "Base Rebate," in f[i] or "Base,Rebate." in f[i]:
+                #if "Covidien shall pay" in f[i] or "Covidien will pay" in f[i]:
+                #print("reading base")
+                base_pos=i
+                break
+                #print(f[i])
+            elif "Rebate." in f[i] or "Rebate," in f[i] or "Rebate,." in f[i]:
+                #if "Covidien shall pay" in f[i] or "Covidien will pay" in f[i]:
+                #print("reading base")
+                base_pos=i
+                break
+                #print(f[i])
+            elif "Administrative Fee:" in f[i]:
+                base_pos=i
+                break        
+        
+        for j in range(base_pos+1,len(f)):
+            if "Growth Rebate." in f[j]:
+                end_pos=j+1
+                break
+            elif "If after the Effective" in f[j]:
+                end_pos=j
+                break
+            elif "Payment of Rebates." in f[j] or "Payment of Rebates" in f[j] or "p.ayment of Rebates" in f[j]:
+                end_pos=j
+                break
+            elif "Payment Terms" in f[j]:
+                end_pos=j
+                break
+            elif "Discontinuation." in f[j]:
+                end_pos=j
+                break
+            elif "Rebate Definitions." in f[j]:
+                end_pos=j
+                break
+            elif "Part 3. Members" in f[j]:
+                end_pos=j
+                break
+            elif "Membership Changes." in f[j]:
+                end_pos=j
+                break
+            elif "Access to Records." in f[j]:
+                end_pos=j
+                break
+            
+                
+        if base_pos!=-1 and end_pos!=-1:
+            #print(base_pos)
+            #print(end_pos)
+            #print(f[base_pos])
+            #print(f[end_pos])
+            g=""
+
+Start Date
+
+name_list=open(namelist,'r')
+file_name=name_list.readline().strip('\n')
+#print(file_name)
+for i in name_list.readlines():
+    #print(i)
+    i=i.strip('\n')
+    myfile=path+i 
+    print(myfile)
+    fhand=open(myfile,'r')
+   
+  
+    for line in fhand:
+        if 'Start Date' in line:
+            print(line)
+            matches = datefinder.find_dates(line)
+            for index, i in enumerate(matches):
+                if index==0:
+                    SD = i
+                    print('Start Date:',SD,'\n')
+                    break
+                
+                    if fhand:
+                        current_line = fhand.readline()
+
+                    for line in fhand:
+                        previous_line = current_line
+                        current_line = line
+                        if 'Street Address' in line:
+                            Z = print('Start Date:',previous_line[-12:])
+                        break
+                
+            
+CODES END         

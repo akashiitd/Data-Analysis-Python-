@@ -1,0 +1,33 @@
+import nltk
+from nltk import *
+import string
+#text = open('D://Users/703183779/Desktop/West Penn Allegheney.txt',mode='r')
+from nltk.corpus import stopwords
+stopword=stopwords.words('english')
+with open('D://Users/703183779/Desktop/West Penn Allegheney.txt',mode='r') as myfile:
+    #data=myfile.read().replace('\n', '')
+    #rawData.replace('\t','\n').split('\n')
+    data = myfile.read()
+data=data.replace('\t','\n').split('\n')
+raw_data =""
+for i in data:
+    raw_data =raw_data+i
+sentences = nltk.sent_tokenize(raw_data) 
+#sentences
+def remove_punct(text):
+    
+    text_nopunct ="".join([char for char in text if char not in string.punctuation])
+    
+    return text_nopunct
+sentences_clean = remove_punct(raw_data)
+sentences_clean
+
+tokenized_list = nltk.word_tokenize(sentences_clean)
+
+def remove_stopwords(tokenized_list):
+    text = [word for word in tokenized_list if word not in stopword]
+    return text
+   
+    
+tokenized_nostop = remove_stopwords(tokenized_list)
+

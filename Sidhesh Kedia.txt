@@ -1,0 +1,334 @@
+Sub IFS_FORTIS()
+'PURPOSE: To loop through all Excel files in a user specified folder and perform a set task on them
+'Code Developed By Akash Soni
+'FOR QUERY CONTACT Akash.soni@genpact.com
+Dim s As String
+Dim wb As Workbook
+Dim wb_count As Integer
+Dim myPath As String
+Dim MyFile As String
+Dim myExtension As String
+Dim FldrPicker As FileDialog
+Dim File_count As Integer
+
+wb_count = 1
+'Optimize Macro Speed
+  Application.ScreenUpdating = False
+  Application.EnableEvents = False
+  Application.Calculation = xlCalculationManual
+
+'Retrieve Target Folder Path From User
+  Set FldrPicker = Application.FileDialog(msoFileDialogFolderPicker)
+
+    With FldrPicker
+      .Title = "Select A Target Folder"
+      .AllowMultiSelect = False
+        If .Show <> -1 Then GoTo NextCode
+        myPath = .SelectedItems(1) & "\"
+    End With
+
+'In Case of Cancel
+NextCode:
+  myPath = myPath
+  If myPath = "" Then GoTo ResetSettings
+'CODE DEVELOP BY AKASH SONI 11 SEPTEMBER 2018
+'Target File Extension (must include wildcard "*")
+  myExtension = "*.xls*"
+
+'Target Path with Ending Extention
+  MyFile = Dir(myPath & myExtension)
+
+'File_count = 0
+'Count the number of excel file in the folder
+'For Each file In myFile
+'
+'    File_count = File_count + 1
+'    Workbooks("Status.xlsx").Sheets(1).Cells(File_count, 1) = file.Name
+'
+'
+'Next file
+
+  ' Call GetFileNames(MyFile)
+
+'Loop through each Excel file in folder
+  Do While MyFile <> ""
+    'Set variable equal to opened workbook
+      Set wb = Workbooks.Open(FileName:=myPath & MyFile)
+    
+    'Ensure Workbook has opened before moving on to next line of code
+      DoEvents
+      s = ActiveWorkbook.Name
+      wb_count = wb_count + 1
+      'Workbooks("Staus.xlsx").Sheets(1).Cells(wb_count, 1) = s
+      Workbooks("MASTER LIST-Fortis Conveyed Items.xlsx").Sheets("Status").Cells(wb_count, 1) = s
+      
+       Call sid_End_part(s)
+    'Change First Worksheet's Background Fill Blue
+      'wb.Worksheets(1).Range("A1:Z1").Interior.Color = RGB(51, 98, 174)
+     Workbooks("MASTER LIST-Fortis Conveyed Items.xlsx").Sheets("Status").Cells(wb_count, 2) = "Done"
+    'Save and Close Workbook
+      wb.Close SaveChanges:=True
+      
+    'Ensure Workbook has closed before moving on to next line of code
+      DoEvents
+
+    'Get next file name
+      MyFile = Dir
+  Loop
+
+'Message Box when tasks are completed
+  'MsgBox "Task Complete!"
+Workbooks("MASTER LIST-Fortis Conveyed Items.xlsx").Activate
+Sheets("Status").Select
+
+ResetSettings:
+  'Reset Macro Optimization Settings
+    Application.EnableEvents = True
+    Application.Calculation = xlCalculationAutomatic
+    Application.ScreenUpdating = True
+
+End Sub
+
+
+Function sid_End_part(s)
+
+
+    'CODE DEVELOP BY AKASH SONI 11 SEPTEMBER 2018
+       Dim i, j, Z, Count, CAH_COUNT As Long
+       Dim iCntr As Long
+      'OPEN ITEM INFO SHEET
+      'ADD COLUMN AFTER PRODUCT number columns
+      'MATCH A COLUMN OF MASTER LIST WITH PRODUCT COLUMN AND EXTRACT DIVEST CODE INTO ITEM INFO SHEET OF CC SHEET
+      
+      'FOR SALES DETAIL ADD COLUMN AFTER R
+      'SAME COMPARISION WITH MASTER LIST
+      ' IN CASE CHA IS EQUAL TO LASTROW -2
+      
+      'Else
+      'Sales Summary info add column after w do the same steps
+      'Rebate info add column after J do the same steps
+      '
+      'CODE DEVELOPED BY AKASH SONI
+      'DATED 11TH SEPTEMBER
+      
+      Workbooks(s).Activate
+      
+     
+      
+      Sheets("Item Info").Select
+      
+      Range("J1").EntireColumn.Insert
+      Cells(1, 10) = "Divest Code"
+      lr_s = Range("A" & Rows.Count).End(xlUp).Row
+      Count = 0
+      For i = 2 To 6
+            
+        Z = Val(Right(Cells(i, 1), 1))
+        If (Z > 0) Then
+                    
+            Count = i
+        Exit For
+        End If
+      
+      Next i
+      
+      
+      'Activating Master Sheet
+      Workbooks("MASTER LIST-Fortis Conveyed Items.xlsx").Activate
+      lr_M = Range("A" & Rows.Count).End(xlUp).Row
+      
+      
+'      For i = 2 To lr_M
+'        For j = Count To lr_s
+'
+'        If (Workbooks("MASTER LIST-Fortis Conveyed Items.xlsx").Sheets(1).Cells(i, 2) = Workbooks("s").Sheets("Item Info").Cells(j, 9)) Then
+'
+'
+'         Workbooks("s").Sheets("Item Info").Cells(j, 10) = Workbooks("MASTER LIST-Fortis Conveyed Items.xlsx").Sheets(1).Cells(i, 3)
+'
+'
+'        End If
+'
+'
+'
+'        Next j
+'      Next i
+
+'CODE DEVELOP BY AKASH SONI 11 SEPTEMBER 2018
+'Workbooks("s").Sheets("Item Info").Range(Cells(Count, 9), Cells(lr_s, 10)) = Application.WorksheetFunction.VLookup(Workbooks("s").Sheets("Item Info").Range(Cells(Count, 9), Cells(lr_s, 10)), Workbooks("MASTER LIST-Fortis Conveyed Items.xlsx").Sheets(1).Range(Cells(2, 1), Cells(lr_M, 3)), 3, False)
+
+ 'Workbooks("s").Sheets("Item Info").Range("I"&Count : "I"&lr_s).select
+'Range ("K2:K" & lr)
+Workbooks(s).Activate
+
+Sheets("Item Info").Select
+'    Range(Cells(Count, 10), Cells(lr_s, 10)) = Application.WorksheetFunction.VLookup( _
+'                                                                                Workbooks(s).Sheets(4).Range(Cells(Count, 9), Cells(lr_s, 9)), _
+'                                                                                Workbooks("MASTER LIST-Fortis Conveyed Items.xlsx").Sheets(1).Range("A2:C" & lr_M), 3, False)
+    Range(Cells(Count, 10), Cells(lr_s, 10)) = Application.WorksheetFunction.VLookup( _
+                                                                                       Workbooks(s).Sheets("Item Info").Range(Cells(Count, 9), Cells(lr_s, 9)), _
+                                                                                       Workbooks("MASTER LIST-Fortis Conveyed Items.xlsx").Sheets(1).Range("A2:C" & lr_M), 3, False)
+                                                                                       
+    
+For iCntr = Cells(Rows.Count, "A").End(xlUp).Row To 1 Step -1
+        'Replace "#N/A" with the value you want to delete
+        ' Check column A and B for the value.
+        If Cells(iCntr, 10).Text = "#N/A" Then
+            Rows(iCntr).Delete
+        End If
+    Next
+
+'CODE DEVELOP BY AKASH SONI 11 SEPTEMBER 2018
+
+Workbooks(s).Activate
+Sheets("Sales Detail").Select
+Range("S1").EntireColumn.Insert
+
+Cells(1, 19) = "Divest Code"
+      lr_s = Range("A" & Rows.Count).End(xlUp).Row
+      Count = 0
+      For i = 2 To 6
+            
+        Z = Val(Right(Cells(i, 1), 1))
+        If (Z > 0) Then
+                    
+            Count = i
+        Exit For
+        End If
+      
+      Next i
+      
+'Error Handling
+On Error Resume Next
+'CODE DEVELOP BY AKASH SONI 11 SEPTEMBER 2018
+Range(Cells(Count, 19), Cells(lr_s, 19)) = Application.WorksheetFunction.VLookup( _
+                                                                         Workbooks(s).Sheets(2).Range(Cells(Count, 18), Cells(lr_s, 18)), _
+                                                                         Workbooks("MASTER LIST-Fortis Conveyed Items.xlsx").Sheets(1).Range("A2:C" & lr_M), 3, False)
+
+CAH_COUNT = 0
+'
+'For j = Count To lr_s
+'
+'
+'    If (IsNA(Cells(j, lr_s))) Then
+'
+'        MsgBox "Perform"
+'    Exit For
+'    End If
+'
+'Next j
+'CAH COUNT TO COUNT NUMBER OF CAH DIVEST CODE
+
+CAH_COUNT = Application.WorksheetFunction.CountIf(Range(Cells(Count, 19), Cells(lr_s, 19)), "CAH")
+
+
+
+If (CAH_COUNT = (lr_s - Count + 1)) Then
+
+    Cells(5, 1000) = "J"
+
+Else
+    
+    'Deleting #N/A value of Sales Detail
+    
+    For iCntr = Cells(Rows.Count, "A").End(xlUp).Row To 1 Step -1
+        'Replace "#N/A" with the value you want to delete
+        ' Check column A and B for the value.
+        If Cells(iCntr, 19).Text = "#N/A" Then
+            Rows(iCntr).Delete
+        End If
+    Next
+    
+    Sheets("Sales Summary Info").Select
+    Range("X1").EntireColumn.Insert
+
+    Cells(1, 24) = "Divest Code"
+      lr_s = Range("A" & Rows.Count).End(xlUp).Row
+      Count = 0
+      For i = 2 To 6
+            
+        Z = Val(Right(Cells(i, 1), 1))
+        If (Z > 0) Then
+                    
+            Count = i
+        Exit For
+        End If
+      
+      Next i
+Range(Cells(Count, 24), Cells(lr_s, 24)) = Application.WorksheetFunction.VLookup( _
+                                                                        Workbooks(s).Sheets(1).Range(Cells(Count, 23), Cells(lr_s, 23)), _
+                                                                        Workbooks("MASTER LIST-Fortis Conveyed Items.xlsx").Sheets(1).Range("A2:C" & lr_M), 3, False)
+For iCntr = Cells(Rows.Count, "A").End(xlUp).Row To 1 Step -1
+        'Replace "#N/A" with the value you want to delete
+        ' Check column A and B for the value.
+        If Cells(iCntr, 24).Text = "#N/A" Then
+            Rows(iCntr).Delete
+        End If
+    Next
+
+Sheets("Rebate Info").Select
+    Range("K1").EntireColumn.Insert
+
+    Cells(1, 11) = "Divest Code"
+      lr_s = Range("A" & Rows.Count).End(xlUp).Row
+      Count = 0
+      For i = 2 To 6
+            
+        Z = Val(Right(Cells(i, 1), 1))
+        If (Z > 0) Then
+                    
+            Count = i
+        Exit For
+        End If
+      
+      Next i
+Range(Cells(Count, 11), Cells(lr_s, 11)) = Application.WorksheetFunction.VLookup( _
+                                                                        Workbooks(s).Sheets(3).Range(Cells(Count, 10), Cells(lr_s, 10)), _
+                                                                        Workbooks("MASTER LIST-Fortis Conveyed Items.xlsx").Sheets(1).Range("A2:C" & lr_M), 3, False)
+For iCntr = Cells(Rows.Count, "A").End(xlUp).Row To 1 Step -1
+        'Replace "#N/A" with the value you want to delete
+        ' Check column A and B for the value.
+        If Cells(iCntr, 11).Text = "#N/A" Then
+            Rows(iCntr).Delete
+        End If
+    Next
+
+
+End If
+
+Sheets("Item Info").Select
+    
+    For iCntr = Cells(Rows.Count, "A").End(xlUp).Row To 1 Step -1
+        'Replace "#N/A" with the value you want to delete
+        ' Check column A and B for the value.
+        If Cells(iCntr, 10).Text = "#N/A" Then
+            Rows(iCntr).Delete
+        End If
+    Next
+
+
+End Function
+
+
+'Function GetFileNames(ByVal FolderPath As String) As Variant
+'Dim Result As Variant
+'Dim i As Integer
+'Dim MyFile As Object
+'Dim MyFSO As Object
+'Dim MyFolder As Object
+'Dim MyFiles As Object
+'Set MyFSO = CreateObject("Scripting.FileSystemObject")
+'Set MyFolder = MyFSO.GetFolder(FolderPath)
+'Set MyFiles = MyFolder.Files
+'ReDim Result(1 To MyFiles.Count)
+'i = 1
+'For Each MyFile In MyFiles
+'Workbooks("Status.xlsx").Sheets(1).Cells(i, 1) = MyFile.Name
+'i = i + 1
+'Next MyFile
+'GetFileNames = Result
+'End Function
+
+
+
+

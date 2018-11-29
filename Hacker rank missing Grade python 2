@@ -1,5 +1,5 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
-
+# http://nbviewer.jupyter.org/github/peterroelants/ML_Traveller/blob/master/Predict_the_Missing_Grade/missing_grade.ipynb
 import json
 import numpy as np
 import fileinput
